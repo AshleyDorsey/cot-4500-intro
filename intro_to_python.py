@@ -1,4 +1,4 @@
-import numpy as np #added an extension - still not working.
+import numpy as np
 
 def intro_array():
     array = np.array([[0,0,0],[0,0,0],[0,0,0]])
