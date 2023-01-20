@@ -9,7 +9,7 @@ def intro_array():
             else:
                 array[x][y] = 0
 
-    print(array)
+    print(str(array).replace(' [', '').replace('[', '').replace(']', ''))
     print("\n")
 
     for x in range(0, 3):
@@ -19,11 +19,11 @@ def intro_array():
             else:
                 array[x][y] = 3
 
-    print(array)
+    print(str(array).replace(' [', '').replace('[', '').replace(']', ''))
     print("\n")
 
     array = np.delete(array, 2, 1)
-    print(array)
+    print(str(array).replace(' [', '').replace('[', '').replace(']', ''))
 
 if __name__ == "__main__":
     intro_array()
