@@ -12,7 +12,7 @@
 
 ## Description
 
-This creates three different arrays. The first using 0 and 1, and the second and third using 1 and 3. The first array will be a 2 by 3, the second a 3 by 3, and the third a 3 by 2. 
+This creates three different arrays. The first using 0 and 1, and the second and third using 1 and 3. The first and second array will be a 3 by 3, and the third a 3 by 2. 
 
 ## Setup/Installation Requirements
 
